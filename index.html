@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>AZAR Rock</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">  
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <!-- Tweaks for older IEs-->
+  <!--link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  
+  <!-- Reproductor de Musica -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/musicplayer.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://enscrollplugin.com/releases/enscroll-0.6.1.min.js"></script>
+  <script src="js/musicplayer.js"></script>
+  
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+  <!-- loader  -->
+  <div class="loader_bg">
+    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+  </div>
+  <!-- end loader -->
+  <!-- header -->
+  <header>
+    <!-- header inner -->
+    <div class="header-top">
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9">
+              
+               <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu ">
+                    <ul class="menu-area-main">
+                      <li class="active"> <a href="index.html">Inicio</a> </li>                  
+                      <li> <a href="historia.html">Historia</a> </li>
+                      <li> <a href="elgarage.html">Garage</a> </li>
+					  <li> <a href="envivo.html">En Vivo</a> </li>
+					  <li> <a href="amigos.html">Amigos</a> </li>
+					  <li> <a href="rarezas.html">Rarezas</a> </li>
+					  <li> <a href="descargas.html">Descargas</a> </li>
+                      <li> <a href="contacto.html">Contacto</a> </li>
+                      <!--li> <a  class="last_manu" href="#"><img src="images/search_icon.png" alt="#" /></a> </li-->             
+                     </ul>
+                   </nav>                
+               </div> 
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- end header inner -->
+
+     <!-- end header -->
+     <section class="slider_section">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="container">
+				  <div class="carousel-caption">
+					<div class="row">
+					  <div class="col-md-12">
+						<div class="text-bg">
+						  <span></span>
+						  <h1>Bienvenidos</h1>
+						  <p>Somos una banda de Rock, simple.
+						  <br>Queremos decir tanto que, a falta de aciertos naturales y notando que los errores comenzaron a multiplicarse,
+						  <br>decidimos escribir nuestras propias penas y alegrías.</p>
+						  <a href="https://open.spotify.com/artist/7a5GAZSHlWofQIiyDOVOcH?si=1IN9qdAVS4ihUdap2jSIuA&dl_branch=1" target="_blank">Musica </a>
+						  <a href="https://www.youtube.com/channel/UCf1YUsRA1QdSXya07toLCuA" target="_blank">Videos </a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		  
+			<div class="carousel-item">
+				<div class="container ">
+				  <div class="carousel-caption">
+
+					<div class="row">
+					  <div class="col-md-12">
+						<div class="text-bg">
+							<span>Conoc&eacute; a fondo</span>
+						  <h1>LO &Uacute;LTIMO</h1>
+						  <p>¿Querés saber todas novedades?</p>
+						  <a href="#novedades">Enterate Aqu&iacute; </a>
+						</div>
+					  </div>
+
+					</div>
+				  </div>
+				</div>
+			</div>
+
+			<!--div class="carousel-item">
+				<div class="container">
+				  <div class="carousel-caption ">
+					<div class="row">
+					  <div class="col-md-12">
+						<div class="text-bg">
+							<span>The Best</span>
+						  <h1>MUSIC BAND EVER</h1>
+						  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
+						  <a href="#">Music & Entertainment</a> <a href="#">Buy Tickets </a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div-->
+        </div>
+     
+		<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+			<i class="fa fa-long-arrow-left" aria-hidden="true"></i>     
+		</a>
+		<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>      
+		</a>
+   </div>
+
+</section>
+</div>
+</header>
+
+<!-- about  -->
+<div id="about" class="about">
+  <div class="container">
+    <div class="row display_boxflex">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <h2>La Banda</h2>
+          <p>AZAR posee un repertorio de temas de propia autoría, con letras que demuestran la sensibilidad de sus integrantes para con situaciones cotidianas y sociales. Muchos de sus temas demuestran la propia introspección de quién escribe. Con influencias de distintas bandas nacionales e internacionales la banda busca expresar melodías combinadas con el sonido de la voz y la potencia del rock moderno</p>
+          <a href="historia.html">Leer mas</a>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <figure><img src="images/about.png" alt="#" /></figure>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end abouts -->
+
+<!-- upcoming -->
+
+<div id="upcoming" class="upcoming">
+<a name="novedades"></a>
+  <div class="container-fluid padding_left3">
+    <div class="row display_boxflex">
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+       <div class="box_text">
+          <div class="titlepage">
+            <h2>Disco de Estudio</h2>
+          </div>
+          <p> Comenzamos a trabajar en el nuestro disco de estudio en 2018, en Diciembre del mismo año publicamos el 1er sencillo con el Nombre de <b>Historia de Barro</b> en Spotify y todas las redes sociales,  
+		  debido a la pandemia Mundial del COVID-19 no pudimos seguir grabando en el estudio, pero luego de un esfuerzo de toda la banda, 
+		  montamos nuestro propio estudio de grabacion y a principios del 2020 comenzamos con la grabaci&oacute; de un nuevo repertorio de temas que ya esta listo. En noviembre de 2021 lanzamos nuestro 2do. single <b>Renacimiento</b>.</p>
+          <a href="descargas.html">Ver M&aacute;s</a>
+        </div>
+      </div> 
+    
+      <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 border_right">
+         <div class="upcomimg">
+           <div class="mhn-player">
+		<div class="album-art"></div>
+		<div class="play-list">
+			<a href="#" class="play"
+				data-id="1"
+				data-album="Renacimiento"
+				data-artist="Azar"
+				data-title="Karma"
+				data-albumart="images/portadas/karma.png"
+				data-url="musica/Karma.mp3"></a>
+
+			<a href="#" class="play"
+				data-id="2"
+				data-album="Renacimiento"
+				data-artist="Azar"
+				data-title="La Bacanal de los Andrios"
+				data-albumart="images/portadas/bacanal.png"
+				data-url="musica/La Bacanal de los Andrios.mp3"></a>
+
+			<a href="#" class="play"
+				data-id="3"
+				data-album="Historia de Barro"
+				data-artist="Azar"
+				data-title="Reina del Bestiario"
+				data-albumart="images/portadas/reina.png"
+				data-url="musica/Reina del Bestiario.mp3"></a>
+
+			<a href="#" class="play"
+				data-id="4"
+				data-album="Historia de Barro"
+				data-artist="Azar"
+				data-title="Talismán"
+				data-albumart="images/portadas/talisman.png"
+				data-url="musica/Talismán.mp3"></a>
+
+			<!--a href="#" class="play"
+				data-id="5"
+				data-album="The Unforgiving"
+				data-artist="Within Tempation"
+				data-title="Faster"
+				data-albumart="http://www.aceshowbiz.com/images/news/00038227.jpg"
+				data-url="https://a.tumblr.com/tumblr_lli3gani2F1qetbfso1_r1.mp3"></a>
+
+			<a href="#" class="play"
+				data-id="6"
+				data-album="Californication"
+				data-artist="Red Hot Chili Peppers"
+				data-title="Californication"
+				data-albumart="https://eyespytz.files.wordpress.com/2011/11/6837-gif.jpeg"
+				data-url="http://mp3light.net/assets/songs/21000-21999/21582-californication-red-hot-chili-peppers--1411570819.mp3"></a>
+
+			<a href="#" class="play"
+				data-id="7"
+				data-album="V"
+				data-artist="Maroon 5"
+				data-title="Sugar"
+				data-albumart="http://media.fanfire.com/images/product/large/MAR/MAR61934.jpg"
+				data-url="http://mp3light.net/assets/songs/393000-393999/393398-sugar-maroon-5-sugar-sugar-maroon.mp3"></a>
+
+			<a href="#" class="play"
+				data-id="8"
+				data-album="Meteora"
+				data-artist="Linkin Park"
+				data-title="Numb"
+				data-albumart="https://upload.wikimedia.org/wikipedia/en/6/64/MeteoraLP.jpg"
+				data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a-->
+		</div>
+		<div class="audio"></div>
+		<div class="current-info">
+			<div class="song-artist"></div>
+			<div class="song-album"></div>
+			<div class="song-title"></div>
+		</div>
+		<div class="controls">
+		<a href="#" class="toggle-play-list"><i class="fa fa-list-ul"></i></a>
+		<div class="duration clearfix">
+			<span class="pull-left play-position"></span>
+			<span class="pull-right"><span class="play-current-time">00:00</span> / <span class="play-total-time">00:00</span></span>
+		</div>
+		<div class="progress"><div class="bar"></div></div>
+			<div class="action-button">
+				<a href="#" class="prev"><i class="fa fa-step-backward"></i></a>
+				<a href="#" class="play-pause"><i class="fa fa-pp"></i></a>
+				<a href="#" class="stop"><i class="fa fa-stop"></i></a>
+				<a href="#" class="next"><i class="fa fa-step-forward"></i></a>
+				<input type="range" class="volume" min="0" max="1" step="0.1" value="0.5" data-css="0.5">
+			</div>
+
+		</div>
+		</div>
+        </div>
+          </div>
+  </div>
+    </div>
+</div>
+<!-- end upcoming -->
+
+<!-- Gallery -->
+
+
+<!--div id="gallery" class="Gallery">
+  <div class="container"> 
+    <div class="row display_boxflex">
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott">
+            <div class="Gallery_img">
+              <figure><img src="images/gallery1.jpg" alt="#"/></figure>
+            </div>
+            <div class="hover_box">
+             
+              <ul class="icon_hu">
+                 <h3>Oscar Kummel</h3>
+                <li><a href="#"><img src="icon/h.png" alt="#"/></a></li>
+                 <li><a href="#"><img src="icon/h.png" alt="#"/></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott">
+            <div class="Gallery_img">
+              <figure><img src="images/gallery2.jpg" alt="#"/></figure>
+            </div>
+            <div class="hover_box">
+             
+              <ul class="icon_hu">
+                 <h3>Teatro Municipal</h3>
+                <li><a href="#"><img src="icon/h.png" alt="#"/></a></li>
+                 <li><a href="#"><img src="icon/h.png" alt="#"/></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott1">
+            <div class="Gallery_img">
+              <figure><img src="images/gallery3.jpg" alt="#"/></figure>
+            </div>
+            <div class="hover_box">
+             
+              <ul class="icon_hu">
+                 <h3>Revelaciones FNS</h3>
+                <li><a href="#"><img src="icon/h.png" alt="#"/></a></li>
+                 <li><a href="#"><img src="icon/h.png" alt="#"/></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="Gallery_img">
+              <figure><img src="images/gallery4.jpg" alt="#"/></figure>
+            </div>
+            <div class="hover_box">
+             
+              <ul class="icon_hu">
+                 <h3>Rocker Resto Bar</h3>
+                <li><a href="galeria.php?idgal=4"><img src="icon/h.png" alt="#"/></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="Gallery_text">
+          <div class="titlepage">
+            <h2>En el Garage</h2>
+          </div>
+          <p>*Descripcion*</p>
+          <a href="elgarage.html">Ver M&aacute;s</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div-->
+
+<!--div id="gallery" class="Gallery">
+  <div class="container"> 
+    <div class="row display_boxflex">
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott">
+            <div class="Gallery_img">
+              <figure>
+				<iframe width="320" height="180" src="https://www.youtube.com/embed/vwXoYrB0z7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  </figure>
+            </div>
+
+          </div>
+		  
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott">
+            <div class="Gallery_img">
+              <figure>
+				<iframe width="320" height="180" src="https://www.youtube.com/embed/ydyDQXmdqbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  </figure>
+            </div>
+          </div>
+		  
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott1">
+            <div class="Gallery_img">
+              <figure>
+				<iframe width="320" height="180" src="https://www.youtube.com/embed/yvgGBf9inmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  </figure>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="Gallery_img">
+              <figure>
+				<iframe width="320" height="180" src="https://www.youtube.com/embed/EAYng15lCmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="Gallery_text">
+          <div class="titlepage">
+            <h2>Las Tablas</h2>
+          </div>
+          <p>*Descripcion*</p>
+          <a href="https://www.youtube.com/channel/UCf1YUsRA1QdSXya07toLCuA">Ver Mas</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div-->
+
+<!-- end Gallery --> 
+
+
+    <!--  footer -->
+    <footr>
+      <div class="footer ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+				<form class="contact_bg">
+					<div class="row">
+					  <div class="col-md-12">
+						<div class="titlepage">
+						  <h2>Contacto</h2>
+						</div>
+						<div class="col-md-12">
+						  <input class="contactus" placeholder="Nombre" type="text" name="Your Name">
+						</div>
+						<div class="col-md-12">
+						  <input class="contactus" placeholder="Email" type="text" name="Your Email">
+						</div>
+						<div class="col-md-12">
+						  <input class="contactus" placeholder="Telefono" type="text" name="Your Phone">
+						</div>
+						<div class="col-md-12">
+						  <textarea class="textarea" placeholder="Mensaje" type="text" name="Message"></textarea>
+						</div>
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						  <button class="send">Enviar</button>
+						</div>
+					  </div>
+					</div>
+				</form>
+            </div>
+			
+            <!--div class="col-md-12 border_top">
+              <form class="news">
+               <h3>Newsletter</h3>
+                <input class="newslatter" placeholder="ENTER YOUR MAIL" type="text" name=" ENTER YOUR MAIL">
+                <button class="submit">Subscribe</button>
+              </form>
+            </div-->
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+					<div class="address">
+						<ul class="loca">
+							<li>
+								<a href="https://api.whatsapp.com/send?phone=5492644589511" target="_blank"><img src="icon/whatsapp.png" alt="#" /> +549 2644589511</a>
+							</li>
+							<li>
+								<a href="https://api.whatsapp.com/send?phone=5492644030971" target="_blank"><img src="icon/whatsapp.png" alt="#" /> +549 2644030971</a>
+							</li>
+							  
+							<li>
+								<a href="mailto:azar.rockband@gmail.com" target="_blank"><img src="icon/email.png" alt="#" /> azar.rockband@gmail.com</a>
+							</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                           <ul class="social_link">
+								<li><a href="https://open.spotify.com/artist/7a5GAZSHlWofQIiyDOVOcH?si=I5o7-eRrTqiX8KrC_5P-xg&dl_branch=1" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+								<li><a href="https://soundcloud.com/azar_rock" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.facebook.com/Azar.Rock.SJ/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/azar.rock" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCf1YUsRA1QdSXya07toLCuA" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							</ul>
+                       </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+               <div class="container">
+					<div class="copyright">               
+						<p>AZAR 2021 - todos los Derechos Reservados</p>
+					</div>
+              </div>
+            </div>
+          </footr>
+          <!-- end footer -->
+          <!-- Javascript files-->
+          <script src="js/jquery.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="js/jquery-3.0.0.min.js"></script>
+          <script src="js/plugin.js"></script>
+          <!-- sidebar -->
+          <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+          <script src="js/custom.js"></script>
+          <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+</body>
+
+</html>
